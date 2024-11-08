@@ -15,7 +15,7 @@ import speedtest
 
 for i in range(3):
     a = input("Enter Password to open Jarvis :- ")
-    pw_file = open("C:\\Users\\pauld\Desktop\\Jarvis_Final-20240817T115232Z-001\\Jarvis_Final\\password.txt","r")
+    pw_file = open("C:\\Users\\pauld\Desktop\\Jarvis_Final-20240817T115232Z-001\\Jarvis_Final\\password.txt","r")  #change the path according to your system
     pw = pw_file.read()
     pw_file.close()
     if (a==pw):
@@ -128,7 +128,7 @@ if __name__ == "__main__":
                     a = int(input("Are you sure that you want to enter focus mode :- [1 for YES / 2 for NO "))
                     if (a==1):
                         speak("Entering the focus mode....")
-                        os.startfile("C:\\Users\\pauld\Desktop\\Jarvis_Final-20240817T115232Z-001\\Jarvis_Final\\FocusMode.py")
+                        os.startfile("C:\\Users\\pauld\Desktop\\Jarvis_Final-20240817T115232Z-001\\Jarvis_Final\\FocusMode.py")  #change the path according to your system
                         exit()
 
                     
