@@ -1,6 +1,6 @@
 numpy
 datetime
-webbrowser
+web-browser
 speechrecognition
 pyttsx3
 bs4
@@ -11,7 +11,7 @@ mixer
 speedtest
 wolframalpha
 matplotlib
-tkinter
+tk
 pillow
 requests
 googletrans
@@ -19,3 +19,4 @@ playsound
 gTTs
 pywhatkit
 wikipedia
+pynput
