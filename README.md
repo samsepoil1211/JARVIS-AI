@@ -15,6 +15,7 @@
 <hr>
 
 <b>Note :- change the path according to your PC configuration.</b><br>
+<p>Change the path for hosts.txt in the focusmode.py file, and do not use python 3.13</p>
 
 
 
